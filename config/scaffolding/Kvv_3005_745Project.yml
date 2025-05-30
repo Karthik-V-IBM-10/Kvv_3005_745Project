@@ -14,6 +14,7 @@ packages:
   gitUsername: Karthik-V-IBM-10
   gitBranch: main
 - name: JMS2waySSL
+  version: "1.0"
   gitServerName: kvv
   gitUrl: https://github.com/prabhakarsag
   gitUsername: Karthik-V-IBM-10
@@ -25,7 +26,25 @@ services:
     version: "1.0"
   - name: TPP_services_in_FCS
     version: "1.0"
+  - name: JMS2waySSL
+    version: "1.0"
 - serviceName: pub.alert:emit
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2062
+- serviceName: project.kvv_3005_745.integrations:JMS_JNDI_SSL
+  packages:
+  - name: Kvv_3005_745Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+  - name: JMS2waySSL
+    version: "1.0"
+- serviceName: jms2wayssl_publisher:jms2wayssl_publisher
+  packages:
+  - name: JMS2waySSL
+    version: "1.0"
+- serviceName: pub.jms:send
   packages:
   - name: WmPublic
     version: 11.1.0.0.2062
@@ -34,6 +53,8 @@ services:
   - name: Kvv_3005_745Project
     version: "1.0"
   - name: TPP_services_in_FCS
+    version: "1.0"
+  - name: JMS2waySSL
     version: "1.0"
 - serviceName: pub.math:addInts
   packages:
@@ -48,6 +69,8 @@ services:
   - name: Kvv_3005_745Project
     version: "1.0"
   - name: TPP_services_in_FCS
+    version: "1.0"
+  - name: JMS2waySSL
     version: "1.0"
 - serviceName: pub.string:stringToBytes
   packages:
@@ -66,6 +89,8 @@ services:
   - name: Kvv_3005_745Project
     version: "1.0"
   - name: TPP_services_in_FCS
+    version: "1.0"
+  - name: JMS2waySSL
     version: "1.0"
 - serviceName: services:add3Ints
   packages:
