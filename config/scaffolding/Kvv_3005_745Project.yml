@@ -84,6 +84,22 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2062
+- serviceName: project.kvv_3005_745.integrations:refdaf
+  packages:
+  - name: Kvv_3005_745Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+  - name: JMS2waySSL
+    version: "1.0"
+- serviceName: project.kvv_3005_745.referencedata:ref1
+  packages:
+  - name: Kvv_3005_745Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+  - name: JMS2waySSL
+    version: "1.0"
 - serviceName: project.kvv_3005_745.integrations:tppdaf
   packages:
   - name: Kvv_3005_745Project
