@@ -45,6 +45,11 @@ packages:
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: Karthik-V-IBM-10
   gitBranch: main
+- name: SIQACloudStreamsTests
+  gitServerName: kvv
+  gitUrl: https://github.com/manoj-jannu-IBM
+  gitUsername: Karthik-V-IBM-10
+  gitBranch: main
 services:
 - serviceName: project.kvv_3005_745.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_1
   packages:
@@ -305,10 +310,10 @@ services:
 configurationVariables:
   ? artConnection.Kvv_3005_745Project.project.kvv_3005_745.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.networkProtocol
   : tcp
-  ? artConnection.Kvv_3005_745Project.project.kvv_3005_745.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.serverName
-  : 9.60.195.99
   ? artConnection.Kvv_3005_745Project.project.kvv_3005_745.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.databaseName
   : SIQACloud
+  ? artConnection.Kvv_3005_745Project.project.kvv_3005_745.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.serverName
+  : 9.60.195.99
   ? artConnection.Kvv_3005_745Project.project.kvv_3005_745.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.transactionType
   : NO_TRANSACTION
   ? artConnection.Kvv_3005_745Project.project.kvv_3005_745.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.password
