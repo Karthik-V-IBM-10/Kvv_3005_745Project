@@ -8,7 +8,6 @@
   <null name="shutdown_services"/>
   <null name="replication_services"/>
   <record name="requires" javaclass="com.wm.util.Values">
-    <value name="TPP_services_in_FCS">1.0</value>
     <value name="JMS2waySSL">1.0</value>
     <value name="SSL_JDBC_Test">1.0</value>
     <value name="WmJDBCAdapter">10.3.0.0.34</value>
@@ -16,17 +15,18 @@
     <value name="SIQAJDBCAdapterTests">1.0</value>
     <value name="DADA_GlobalVariable1">1.0</value>
     <value name="SIQACloudStreamsTests">1.0</value>
+    <value name="TPP_services_in_FCS">1.0</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">32</value>
+  <value name="build">36</value>
   <null name="description"/>
   <value name="created_date">30-05-2025 08:32:56 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2025-06-02T05:38:41.619588197Z</value>
+  <value name="lastUpdated">2025-06-02T06:02:02.380483554Z</value>
   <value name="wmProjectId">fl6c3ef7adb8be2554480729</value>
   <value name="creator">Karthik V</value>
 </Values>
