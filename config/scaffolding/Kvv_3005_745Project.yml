@@ -434,6 +434,10 @@ services:
     version: 10.7.0.0.66
   - name: SIQACloudStreamsTests
     version: "1.0"
+- serviceName: pub.globalVariable:getGlobalVariable
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2064
 - serviceName: project.kvv_3005_745.integrations:tppdaf
   packages:
   - name: Kvv_3005_745Project
